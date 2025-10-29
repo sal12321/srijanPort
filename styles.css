@@ -69,7 +69,7 @@
         }
 
         .nav-container {
-            max-width: 1400px;
+            max-width: 3500px;
             margin: 0 auto;
             display: flex;
             justify-content: space-between;
@@ -177,7 +177,7 @@
         .hero-title {
             font-size: 4rem;
             font-weight: bold;
-            margin-bottom: 1rem;
+            /* margin-bottom: 0.3rem; */
             background: linear-gradient(135deg, var(--cream), var(--accent));
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
