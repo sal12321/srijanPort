@@ -253,13 +253,13 @@
             position: absolute;
             inset: 0;
             background: linear-gradient(135deg, rgba(255, 105, 105, 0.1), rgba(200, 0, 54, 0.1));
-            opacity: 0.3;
+            opacity: 1 !important;
             transition: opacity 0.4s ease;
             z-index: 0;
         }
 
         .project-card:hover::before {
-            opacity: 1;
+            opacity: 1 !important;
         }
 
         .project-card:hover {
@@ -302,6 +302,9 @@
             padding: 1.5rem;
             position: relative;
             z-index: 1;
+        }
+        .project-video{
+            opacity : 1 !important;
         }
 
         .project-title {
